@@ -2,13 +2,19 @@ import os
 
 from dotenv import load_dotenv
 
-dotenv_path = os.path.join(os.path.dirname(__file__), 'telegram', '.env')
+dotenv_path = os.path.join(os.path.dirname(__file__), 'src', '.env')
 
 load_dotenv(dotenv_path)
 
 ADMIN = ['']
 
-TOKEN = os.getenv('TOKEN')
+API_ID = os.getenv('API_ID')
+
+API_HASH = os.getenv('API_HASH')
 
 START_MESSAGE = 'Стартовое сообщение'
+
+CHANNELS_DONOR = ['-1002017070550', '-1002017070550']
+
+ADMIN_CHANEL = '-1001769946855'
 

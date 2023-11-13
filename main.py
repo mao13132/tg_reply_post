@@ -1,40 +1,39 @@
+# ---------------------------------------------
+# Program by @developer_telegrams
+#
+#
+# Version   Date        Info
+# 1.0       2023    Initial Version
+#
+# ---------------------------------------------
 import asyncio
+import logging
+import os
+from src.telegram.tg_auth_module import TgAuthModule
 
-from telegram.bot_core import *
-from telegram.handlers.users import *
-from telegram.state.states import *
-from telegram.callbacks.call_user import *
+import logging
 
+logger_core = logging.getLogger()
 
-def registration_all_handlers(dp):
-    register_user(dp)
-
-
-def registration_state(dp):
-    register_state(dp)
-
-
-def registration_calls(dp):
-    register_callbacks(dp)
+logging.basicConfig(handlers=[logging.FileHandler(filename="./src/logs.txt",
+                                                  encoding='utf-8', mode='a+')],
+                    format=u'%(filename)s:%(lineno)d #%(levelname)-8s [%(asctime)s] - %(name)s - %(message)s',
+                    datefmt="%F %A %T",
+                    level=logging.DEBUG)
 
 
 async def main():
-    bot_start = Core()
+    path_dir_project = os.path.dirname(__file__)
 
-    registration_state(bot_start.dp)
-    registration_all_handlers(bot_start.dp)
-    registration_calls(bot_start.dp)
+    sessions_path = os.path.join(path_dir_project, 'src', 'sessions')
 
-    try:
-        await bot_start.dp.start_polling()
-    finally:
-        await bot_start.dp.storage.close()
-        await bot_start.dp.storage.wait_closed()
-        await bot_start.bot.session.close()
+    bot_core = TgAuthModule(sessions_path)
+
+    telegram_core = await bot_core.start_tg()
+
+    if not telegram_core:
+        return False
 
 
 if __name__ == '__main__':
-    try:
-        asyncio.run(main())
-    except (KeyboardInterrupt, SystemExit):
-        print(f'Бот остановлен!')
+    res = asyncio.run(main())

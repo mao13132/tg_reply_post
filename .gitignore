@@ -3,3 +3,4 @@ src/__pycache__/
 venv/
 __pycache__/
 src/.env
+src/sessions/

@@ -1,0 +1,1433 @@
+proactor_events.py:633 #DEBUG    [2023-11-13 Monday 15:40:29] - asyncio - Using proactor: IocpProactor
+proactor_events.py:633 #DEBUG    [2023-11-13 Monday 15:44:58] - asyncio - Using proactor: IocpProactor
+proactor_events.py:633 #DEBUG    [2023-11-13 Monday 15:47:06] - asyncio - Using proactor: IocpProactor
+proactor_events.py:633 #DEBUG    [2023-11-13 Monday 15:47:47] - asyncio - Using proactor: IocpProactor
+proactor_events.py:633 #DEBUG    [2023-11-13 Monday 15:48:33] - asyncio - Using proactor: IocpProactor
+proactor_events.py:633 #DEBUG    [2023-11-13 Monday 15:49:08] - asyncio - Using proactor: IocpProactor
+auth.py:82 #INFO     [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Start creating a new auth key on DC2
+connection.py:47 #INFO     [2023-11-13 Monday 15:49:10] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2023-11-13 Monday 15:49:10] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+auth.py:88 #DEBUG    [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Send req_pq: 144475607615399070676493111710743609444
+auth.py:90 #DEBUG    [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Got ResPq: 25880130575054309419585976392707836075
+auth.py:91 #DEBUG    [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Server public key fingerprints: [
+    847625836280919973,
+    -4344800451088585951,
+    -3414540481677951611
+]
+auth.py:95 #DEBUG    [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Using fingerprint: 847625836280919973
+auth.py:105 #DEBUG    [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Start PQ factorization: 1796211576981798811
+auth.py:109 #DEBUG    [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Done PQ factorization (0.06s): 1232386549 1457506639
+auth.py:129 #DEBUG    [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Done encrypt data with RSA
+auth.py:132 #DEBUG    [2023-11-13 Monday 15:49:10] - pyrogram.session.auth - Send req_DH_params
+auth.py:166 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - Done decrypting answer
+auth.py:171 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - Delta time: -0.192
+auth.py:192 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - Send set_client_DH_params
+auth.py:215 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - DH parameters check: OK
+auth.py:230 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - g_a and g_b validation: OK
+auth.py:238 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - SHA1 hash values check: OK
+auth.py:260 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - Nonce fields check: OK
+auth.py:265 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - Server salt: 6081731496019462155
+auth.py:267 #INFO     [2023-11-13 Monday 15:49:11] - pyrogram.session.auth - Done auth key exchange: DhGenOk
+connection.py:66 #INFO     [2023-11-13 Monday 15:49:11] - pyrogram.connection.connection - Disconnected
+connection.py:47 #INFO     [2023-11-13 Monday 15:49:11] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2023-11-13 Monday 15:49:11] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927937677623300,
+    "seq_no": 0,
+    "length": 12,
+    "body": {
+        "_": "functions.Ping",
+        "ping_id": 0
+    }
+}
+session.py:294 #INFO     [2023-11-13 Monday 15:49:11] - pyrogram.session.session - NetworkTask started
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927943708775425,
+    "seq_no": 0,
+    "length": 28,
+    "body": {
+        "_": "types.BadServerSalt",
+        "bad_msg_id": 7300927937677623300,
+        "bad_msg_seqno": 0,
+        "error_code": 48,
+        "new_server_salt": 6081731496019462155
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927937677623304,
+    "seq_no": 0,
+    "length": 12,
+    "body": {
+        "_": "functions.Ping",
+        "ping_id": 0
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927943939713025,
+    "seq_no": 2,
+    "length": 88,
+    "body": {
+        "_": "MsgContainer",
+        "messages": [
+            {
+                "_": "Message",
+                "msg_id": 7300927943939706881,
+                "seq_no": 1,
+                "length": 28,
+                "body": {
+                    "_": "types.NewSessionCreated",
+                    "first_msg_id": 7300927937677623304,
+                    "unique_id": -1969502188727484766,
+                    "server_salt": 6081731496019462155
+                }
+            },
+            {
+                "_": "Message",
+                "msg_id": 7300927943939708929,
+                "seq_no": 2,
+                "length": 20,
+                "body": {
+                    "_": "types.Pong",
+                    "msg_id": 7300927937677623304,
+                    "ping_id": 0
+                }
+            }
+        ]
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927937677623316,
+    "seq_no": 1,
+    "length": 84,
+    "body": {
+        "_": "functions.InvokeWithLayer",
+        "layer": 158,
+        "query": {
+            "_": "functions.InitConnection",
+            "api_id": 28699364,
+            "device_model": "CPython 3.11.4",
+            "system_version": "Windows 10",
+            "app_version": "Pyrogram 2.0.106",
+            "system_lang_code": "en",
+            "lang_pack": "",
+            "lang_code": "en",
+            "query": {
+                "_": "functions.help.GetConfig"
+            }
+        }
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:11] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927944571724801,
+    "seq_no": 3,
+    "length": 396,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300927937677623316,
+        "result": {
+            "_": "types.Config",
+            "date": 1699879752,
+            "expires": 1699883433,
+            "test_mode": false,
+            "this_dc": 2,
+            "dc_options": [
+                {
+                    "_": "types.DcOption",
+                    "id": 1,
+                    "ip_address": "149.154.175.53",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 1,
+                    "ip_address": "149.154.175.53",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 1,
+                    "ip_address": "2001:0b28:f23d:f001:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "149.154.167.50",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "149.154.167.41",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "149.154.167.222",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": true,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "2001:067c:04e8:f002:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "2001:067c:04e8:f002:0000:0000:0000:000b",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": true,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 3,
+                    "ip_address": "149.154.175.100",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 3,
+                    "ip_address": "149.154.175.100",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 3,
+                    "ip_address": "2001:0b28:f23d:f003:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "149.154.167.91",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "149.154.167.91",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "2001:067c:04e8:f004:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "149.154.165.111",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": true,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "2001:067c:04e8:f004:0000:0000:0000:000b",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": true,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 5,
+                    "ip_address": "2001:0b28:f23f:f005:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 5,
+                    "ip_address": "91.108.56.155",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 5,
+                    "ip_address": "91.108.56.155",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                }
+            ],
+            "dc_txt_domain_name": "apv3.stel.com",
+            "chat_size_max": 200,
+            "megagroup_size_max": 200000,
+            "forwarded_count_max": 100,
+            "online_update_period_ms": 210000,
+            "offline_blur_timeout_ms": 5000,
+            "offline_idle_timeout_ms": 30000,
+            "online_cloud_timeout_ms": 300000,
+            "notify_cloud_delay_ms": 30000,
+            "notify_default_delay_ms": 1500,
+            "push_chat_period_ms": 60000,
+            "push_chat_limit": 2,
+            "edit_time_limit": 172800,
+            "revoke_time_limit": 2147483647,
+            "revoke_pm_time_limit": 2147483647,
+            "rating_e_decay": 2419200,
+            "stickers_recent_limit": 200,
+            "channels_read_media_period": 604800,
+            "call_receive_timeout_ms": 20000,
+            "call_ring_timeout_ms": 90000,
+            "call_connect_timeout_ms": 30000,
+            "call_packet_timeout_ms": 10000,
+            "me_url_prefix": "https://t.me/",
+            "caption_length_max": 1024,
+            "message_length_max": 4096,
+            "webfile_dc_id": 4,
+            "default_p2p_contacts": true,
+            "preload_featured_stickers": false,
+            "revoke_pm_inbox": true,
+            "blocked_mode": false,
+            "force_try_ipv6": false,
+            "gif_search_username": "gif",
+            "venue_search_username": "foursquare",
+            "img_search_username": "bing"
+        }
+    }
+}
+session.py:139 #INFO     [2023-11-13 Monday 15:49:12] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2023-11-13 Monday 15:49:12] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2023-11-13 Monday 15:49:12] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2023-11-13 Monday 15:49:12] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2023-11-13 Monday 15:49:12] - pyrogram.session.session - PingTask started
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:17] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927963447427072,
+    "seq_no": 3,
+    "length": 16,
+    "body": {
+        "_": "functions.PingDelayDisconnect",
+        "ping_id": 0,
+        "disconnect_delay": 25
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:17] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927967021310977,
+    "seq_no": 4,
+    "length": 20,
+    "body": {
+        "_": "types.Pong",
+        "msg_id": 7300927963447427072,
+        "ping_id": 0
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:17] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927963447427080,
+    "seq_no": 5,
+    "length": 68,
+    "body": {
+        "_": "functions.auth.SendCode",
+        "phone_number": "6282165232920",
+        "api_id": 28699364,
+        "api_hash": "ece8f64358eb4123e4574cb47ef83950",
+        "settings": {
+            "_": "types.CodeSettings"
+        }
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:17] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927969994721281,
+    "seq_no": 5,
+    "length": 36,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300927963447427080,
+        "result": {
+            "_": "types.RpcError",
+            "error_code": 303,
+            "error_message": "PHONE_MIGRATE_5"
+        }
+    }
+}
+session.py:291 #INFO     [2023-11-13 Monday 15:49:17] - pyrogram.session.session - PingTask stopped
+connection.py:66 #INFO     [2023-11-13 Monday 15:49:17] - pyrogram.connection.connection - Disconnected
+session.py:315 #INFO     [2023-11-13 Monday 15:49:17] - pyrogram.session.session - NetworkTask stopped
+session.py:180 #INFO     [2023-11-13 Monday 15:49:17] - pyrogram.session.session - Session stopped
+auth.py:82 #INFO     [2023-11-13 Monday 15:49:17] - pyrogram.session.auth - Start creating a new auth key on DC5
+connection.py:47 #INFO     [2023-11-13 Monday 15:49:17] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2023-11-13 Monday 15:49:18] - pyrogram.connection.connection - Connected! Production DC5 - IPv4
+auth.py:88 #DEBUG    [2023-11-13 Monday 15:49:18] - pyrogram.session.auth - Send req_pq: 155967222628578615012572338643734058288
+auth.py:90 #DEBUG    [2023-11-13 Monday 15:49:18] - pyrogram.session.auth - Got ResPq: 65535748488350396759991072140664498
+auth.py:91 #DEBUG    [2023-11-13 Monday 15:49:18] - pyrogram.session.auth - Server public key fingerprints: [
+    847625836280919973,
+    -4344800451088585951,
+    -3414540481677951611
+]
+auth.py:95 #DEBUG    [2023-11-13 Monday 15:49:18] - pyrogram.session.auth - Using fingerprint: 847625836280919973
+auth.py:105 #DEBUG    [2023-11-13 Monday 15:49:18] - pyrogram.session.auth - Start PQ factorization: 2058931710141421447
+auth.py:109 #DEBUG    [2023-11-13 Monday 15:49:19] - pyrogram.session.auth - Done PQ factorization (0.448s): 1285666169 1601451263
+auth.py:129 #DEBUG    [2023-11-13 Monday 15:49:19] - pyrogram.session.auth - Done encrypt data with RSA
+auth.py:132 #DEBUG    [2023-11-13 Monday 15:49:19] - pyrogram.session.auth - Send req_DH_params
+auth.py:166 #DEBUG    [2023-11-13 Monday 15:49:19] - pyrogram.session.auth - Done decrypting answer
+auth.py:171 #DEBUG    [2023-11-13 Monday 15:49:19] - pyrogram.session.auth - Delta time: 0.151
+auth.py:192 #DEBUG    [2023-11-13 Monday 15:49:19] - pyrogram.session.auth - Send set_client_DH_params
+auth.py:215 #DEBUG    [2023-11-13 Monday 15:49:20] - pyrogram.session.auth - DH parameters check: OK
+auth.py:230 #DEBUG    [2023-11-13 Monday 15:49:20] - pyrogram.session.auth - g_a and g_b validation: OK
+auth.py:238 #DEBUG    [2023-11-13 Monday 15:49:20] - pyrogram.session.auth - SHA1 hash values check: OK
+auth.py:260 #DEBUG    [2023-11-13 Monday 15:49:20] - pyrogram.session.auth - Nonce fields check: OK
+auth.py:265 #DEBUG    [2023-11-13 Monday 15:49:20] - pyrogram.session.auth - Server salt: 12424574872508151178
+auth.py:267 #INFO     [2023-11-13 Monday 15:49:20] - pyrogram.session.auth - Done auth key exchange: DhGenOk
+connection.py:66 #INFO     [2023-11-13 Monday 15:49:20] - pyrogram.connection.connection - Disconnected
+connection.py:47 #INFO     [2023-11-13 Monday 15:49:20] - pyrogram.connection.connection - Connecting...
+connection.py:54 #INFO     [2023-11-13 Monday 15:49:20] - pyrogram.connection.connection - Connected! Production DC5 - IPv4
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:20] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927976332328960,
+    "seq_no": 0,
+    "length": 12,
+    "body": {
+        "_": "functions.Ping",
+        "ping_id": 0
+    }
+}
+session.py:294 #INFO     [2023-11-13 Monday 15:49:20] - pyrogram.session.session - NetworkTask started
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:21] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927984361083905,
+    "seq_no": 0,
+    "length": 28,
+    "body": {
+        "_": "types.BadServerSalt",
+        "bad_msg_id": 7300927976332328960,
+        "bad_msg_seqno": 0,
+        "error_code": 48,
+        "new_server_salt": -6022169201201400438
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:21] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927980627296256,
+    "seq_no": 0,
+    "length": 12,
+    "body": {
+        "_": "functions.Ping",
+        "ping_id": 0
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:21] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927985250920457,
+    "seq_no": 2,
+    "length": 88,
+    "body": {
+        "_": "MsgContainer",
+        "messages": [
+            {
+                "_": "Message",
+                "msg_id": 7300927985250920449,
+                "seq_no": 1,
+                "length": 28,
+                "body": {
+                    "_": "types.NewSessionCreated",
+                    "first_msg_id": 7300927980627296256,
+                    "unique_id": -794322265701869338,
+                    "server_salt": -6022169201201400438
+                }
+            },
+            {
+                "_": "Message",
+                "msg_id": 7300927985250920453,
+                "seq_no": 2,
+                "length": 20,
+                "body": {
+                    "_": "types.Pong",
+                    "msg_id": 7300927980627296256,
+                    "ping_id": 0
+                }
+            }
+        ]
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:21] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927980627296268,
+    "seq_no": 1,
+    "length": 84,
+    "body": {
+        "_": "functions.InvokeWithLayer",
+        "layer": 158,
+        "query": {
+            "_": "functions.InitConnection",
+            "api_id": 28699364,
+            "device_model": "CPython 3.11.4",
+            "system_version": "Windows 10",
+            "app_version": "Pyrogram 2.0.106",
+            "system_lang_code": "en",
+            "lang_pack": "",
+            "lang_code": "en",
+            "query": {
+                "_": "functions.help.GetConfig"
+            }
+        }
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:21] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927986324664321,
+    "seq_no": 3,
+    "length": 396,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300927980627296268,
+        "result": {
+            "_": "types.Config",
+            "date": 1699879762,
+            "expires": 1699883447,
+            "test_mode": false,
+            "this_dc": 5,
+            "dc_options": [
+                {
+                    "_": "types.DcOption",
+                    "id": 1,
+                    "ip_address": "149.154.175.53",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 1,
+                    "ip_address": "149.154.175.53",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 1,
+                    "ip_address": "2001:0b28:f23d:f001:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "149.154.167.50",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "149.154.167.41",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "149.154.167.222",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": true,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "2001:067c:04e8:f002:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 2,
+                    "ip_address": "2001:067c:04e8:f002:0000:0000:0000:000b",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": true,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 3,
+                    "ip_address": "149.154.175.100",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 3,
+                    "ip_address": "149.154.175.100",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 3,
+                    "ip_address": "2001:0b28:f23d:f003:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "149.154.167.91",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "149.154.167.91",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "2001:067c:04e8:f004:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "149.154.165.111",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": true,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 4,
+                    "ip_address": "2001:067c:04e8:f004:0000:0000:0000:000b",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": true,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 5,
+                    "ip_address": "2001:0b28:f23f:f005:0000:0000:0000:000a",
+                    "port": 443,
+                    "ipv6": true,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 5,
+                    "ip_address": "91.108.56.155",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": false,
+                    "this_port_only": false
+                },
+                {
+                    "_": "types.DcOption",
+                    "id": 5,
+                    "ip_address": "91.108.56.155",
+                    "port": 443,
+                    "ipv6": false,
+                    "media_only": false,
+                    "tcpo_only": false,
+                    "cdn": false,
+                    "static": true,
+                    "this_port_only": false
+                }
+            ],
+            "dc_txt_domain_name": "apv3.stel.com",
+            "chat_size_max": 200,
+            "megagroup_size_max": 200000,
+            "forwarded_count_max": 100,
+            "online_update_period_ms": 210000,
+            "offline_blur_timeout_ms": 5000,
+            "offline_idle_timeout_ms": 30000,
+            "online_cloud_timeout_ms": 300000,
+            "notify_cloud_delay_ms": 30000,
+            "notify_default_delay_ms": 1500,
+            "push_chat_period_ms": 60000,
+            "push_chat_limit": 2,
+            "edit_time_limit": 172800,
+            "revoke_time_limit": 2147483647,
+            "revoke_pm_time_limit": 2147483647,
+            "rating_e_decay": 2419200,
+            "stickers_recent_limit": 200,
+            "channels_read_media_period": 604800,
+            "call_receive_timeout_ms": 20000,
+            "call_ring_timeout_ms": 90000,
+            "call_connect_timeout_ms": 30000,
+            "call_packet_timeout_ms": 10000,
+            "me_url_prefix": "https://t.me/",
+            "caption_length_max": 1024,
+            "message_length_max": 4096,
+            "webfile_dc_id": 4,
+            "default_p2p_contacts": true,
+            "preload_featured_stickers": false,
+            "revoke_pm_inbox": true,
+            "blocked_mode": false,
+            "force_try_ipv6": false,
+            "gif_search_username": "gif",
+            "venue_search_username": "foursquare",
+            "img_search_username": "bing"
+        }
+    }
+}
+session.py:139 #INFO     [2023-11-13 Monday 15:49:22] - pyrogram.session.session - Session initialized: Layer 158
+session.py:140 #INFO     [2023-11-13 Monday 15:49:22] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+session.py:141 #INFO     [2023-11-13 Monday 15:49:22] - pyrogram.session.session - System: Windows 10 (en)
+session.py:155 #INFO     [2023-11-13 Monday 15:49:22] - pyrogram.session.session - Session started
+session.py:272 #INFO     [2023-11-13 Monday 15:49:22] - pyrogram.session.session - PingTask started
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:22] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300927984922263556,
+    "seq_no": 3,
+    "length": 68,
+    "body": {
+        "_": "functions.auth.SendCode",
+        "phone_number": "6282165232920",
+        "api_id": 28699364,
+        "api_hash": "ece8f64358eb4123e4574cb47ef83950",
+        "settings": {
+            "_": "types.CodeSettings"
+        }
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:22] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300927988596955137,
+    "seq_no": 5,
+    "length": 48,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300927984922263556,
+        "result": {
+            "_": "types.auth.SentCode",
+            "type": {
+                "_": "types.auth.SentCodeTypeApp",
+                "length": 5
+            },
+            "phone_code_hash": "d8058b2205fadfc8ae"
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:27] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928006397100032,
+    "seq_no": 5,
+    "length": 16,
+    "body": {
+        "_": "functions.PingDelayDisconnect",
+        "ping_id": 0,
+        "disconnect_delay": 25
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:27] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928009846041601,
+    "seq_no": 6,
+    "length": 20,
+    "body": {
+        "_": "types.Pong",
+        "msg_id": 7300928006397100032,
+        "ping_id": 0
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:27] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928006397100040,
+    "seq_no": 7,
+    "length": 52,
+    "body": {
+        "_": "functions.auth.SignIn",
+        "phone_number": "6282165232920",
+        "phone_code_hash": "d8058b2205fadfc8ae",
+        "phone_code": "59440"
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:27] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928011439469569,
+    "seq_no": 7,
+    "length": 44,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928006397100040,
+        "result": {
+            "_": "types.RpcError",
+            "error_code": 401,
+            "error_message": "SESSION_PASSWORD_NEEDED"
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:27] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928006397100048,
+    "seq_no": 9,
+    "length": 4,
+    "body": {
+        "_": "functions.account.GetPassword"
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:27] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928012762626049,
+    "seq_no": 9,
+    "length": 992,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928006397100048,
+        "result": {
+            "_": "types.account.Password",
+            "new_algo": {
+                "_": "types.PasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow",
+                "salt1": "b'\\xc7o\\xd3\\xd6\\xa6\\x97\\xf7N'",
+                "salt2": "b'\\n\\xc8v1\\x9d0H;\\xcd\\x900\\x12\\xde\\xeeOq'",
+                "g": 3,
+                "p": "b'\\xc7\\x1c\\xae\\xb9\\xc6\\xb1\\xc9\\x04\\x8elR/p\\xf1?s\\x98\\r@#\\x8e>!\\xc1I4\\xd07V=\\x93\\x0fH\\x19\\x8a\\n\\xa7\\xc1@X\"\\x94\\x93\\xd2%0\\xf4\\xdb\\xfa3on\\n\\xc9%\\x13\\x95C\\xae\\xd4L\\xce|7 \\xfdQ\\xf6\\x94XpZ\\xc6\\x8c\\xd4\\xfekk\\x13\\xab\\xdc\\x97FQ)i2\\x84T\\xf1\\x8f\\xaf\\x8cY_d$w\\xfe\\x96\\xbb*\\x94\\x1d[\\xcd\\x1dJ\\xc8\\xccI\\x88\\x07\\x08\\xfa\\x9b7\\x8e<O:\\x90`\\xbe\\xe6|\\xf9\\xa4\\xa4\\xa6\\x95\\x81\\x10Q\\x90~\\x16\\'S\\xb5k\\x0fkA\\r\\xbat\\xd8\\xa8K*\\x14\\xb3\\x14N\\x0e\\xf1(GT\\xfd\\x17\\xed\\x95\\rYe\\xb4\\xb9\\xddFX-\\xb1\\x17\\x8d\\x16\\x9ck\\xc4e\\xb0\\xd6\\xff\\x9c\\xa3\\x92\\x8f\\xef[\\x9a\\xe4\\xe4\\x18\\xfc\\x15\\xe8>\\xbe\\xa0\\xf8\\x7f\\xa9\\xff^\\xedp\\x05\\r\\xed(I\\xf4{\\xf9Y\\xd9V\\x85\\x0c\\xe9)\\x85\\x1f\\r\\x81\\x15\\xf65\\xb1\\x05\\xee.N\\x15\\xd0K$T\\xbfoO\\xad\\xf04\\xb1\\x04\\x03\\x11\\x9c\\xd8\\xe3\\xb9/\\xcc['"
+            },
+            "new_secure_algo": {
+                "_": "types.SecurePasswordKdfAlgoPBKDF2HMACSHA512iter100000",
+                "salt": "b'V\\xd5P\\xaf>$$Q'"
+            },
+            "secure_random": "b'm\\xfe\\x92\\x9c\\xe7\\xcf\\xb2\\x14\\xa0\\xba\\xa9)\\xaf}/\\xf1\\xfc\\x19=\\xa9\\x08\\xb8\\xa6\\xc8\\x947\\xfelG\\x9d\\x98\\x11\\xdc\\xc4\\xb7\\xe8%H\\x81\\xa4w\\xfe\\xbb\\'\\xff\\xec\\x85\\xa4\\xea\\x18\\x1e+\\x9b(\\xce \\xe0tp\\xce&\\xae\\x0e\\xe6:\\x19\\x10;\\x13\\x85^R\\t\\x17\\xbeOx\\x87\\x94\\x81\\x8c\\x1a\\xe8\\x03@\\xdf\\xc7\\xdd\\xb7\\xec\\x92\\x96\\x01\\xd3v\\x8b\\x99\\x8fN\"\\xe4\\xd9%\\x83\\xba\\x180\\xe0\\xe1\\x1f\\xcd\\x9b\\x97\\x82/\\xa9\\xdc\\x13m_\\xa8}\\xaee\\xb2\\x81t\\xce.[U4\\xf8\\xb1\\x1b\\xe8\\xd3F\\xf3\\xb77Z\\x0eV\\xd9D\\x07\\xa0\\xae7\\x85\\xba7\\xd4\\xa1\\xf1\\xc9M>\\xedd\\x1ahF\\x7fw)Lf2\\xf0\\xc9\\x8a\\x0b%\\xd3t\\x1aS\\x1f\\xd7\\xd3\\xb4\\xd4\\xb9\\x1c\\xc8\\xc4\\xc4\\x11\\xc1\\xe6\\x1a\\x8aFHU6\\x82bD\\x8f`j\\xd6[\\xad\\xb4\\x18\\x13\\xb3\\xa9bmi\\xa7\\x967uO\\x0c\\x81\\xf8\\\\hJ\\xd7}\\x1d\\x9b\\x9e\\xde\\x9e\\xf2\\x12\\xcc\\x8d\"\\xd2r\\xc2\\xb2\\xb7\\xb5Ew\\x19b\\xf6\\xf5\\xc9\\xd1\\x96\\xd0\\x8f\\xb2'",
+            "has_recovery": false,
+            "has_secure_values": false,
+            "has_password": true,
+            "current_algo": {
+                "_": "types.PasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow",
+                "salt1": "b'\\xc7o\\xd3\\xd6\\xa6\\x97\\xf7N\\x9f\\xd4\\x89\\x14)sI\\xcf\\xdb$5\\xd4W\\x7fW\\t&~T\\xcb\\x90\\x1a%6 T\\x02\\x85\\xef=\\xac\\xfa'",
+                "salt2": "b'\\n\\xc8v1\\x9d0H;\\xcd\\x900\\x12\\xde\\xeeOq'",
+                "g": 3,
+                "p": "b'\\xc7\\x1c\\xae\\xb9\\xc6\\xb1\\xc9\\x04\\x8elR/p\\xf1?s\\x98\\r@#\\x8e>!\\xc1I4\\xd07V=\\x93\\x0fH\\x19\\x8a\\n\\xa7\\xc1@X\"\\x94\\x93\\xd2%0\\xf4\\xdb\\xfa3on\\n\\xc9%\\x13\\x95C\\xae\\xd4L\\xce|7 \\xfdQ\\xf6\\x94XpZ\\xc6\\x8c\\xd4\\xfekk\\x13\\xab\\xdc\\x97FQ)i2\\x84T\\xf1\\x8f\\xaf\\x8cY_d$w\\xfe\\x96\\xbb*\\x94\\x1d[\\xcd\\x1dJ\\xc8\\xccI\\x88\\x07\\x08\\xfa\\x9b7\\x8e<O:\\x90`\\xbe\\xe6|\\xf9\\xa4\\xa4\\xa6\\x95\\x81\\x10Q\\x90~\\x16\\'S\\xb5k\\x0fkA\\r\\xbat\\xd8\\xa8K*\\x14\\xb3\\x14N\\x0e\\xf1(GT\\xfd\\x17\\xed\\x95\\rYe\\xb4\\xb9\\xddFX-\\xb1\\x17\\x8d\\x16\\x9ck\\xc4e\\xb0\\xd6\\xff\\x9c\\xa3\\x92\\x8f\\xef[\\x9a\\xe4\\xe4\\x18\\xfc\\x15\\xe8>\\xbe\\xa0\\xf8\\x7f\\xa9\\xff^\\xedp\\x05\\r\\xed(I\\xf4{\\xf9Y\\xd9V\\x85\\x0c\\xe9)\\x85\\x1f\\r\\x81\\x15\\xf65\\xb1\\x05\\xee.N\\x15\\xd0K$T\\xbfoO\\xad\\xf04\\xb1\\x04\\x03\\x11\\x9c\\xd8\\xe3\\xb9/\\xcc['"
+            },
+            "srp_B": "b'\\xabvE\\xa4\\xfa1O\\x14~<\\xdft\\x8f6;\\xc5\\x86\\x93*\\x80\\x0f\\x00/\\xa7-\\xbe\\xd8\\xf1*Z0\\xd8\\r\\xf6sZ\"\\xe0\\xb5\\x0e\\xad\\t\\xcbm\\xbc\\xd4\\x90n1\\xce\\xef\\xd2D\\xa5\\x95@C\\xd2^\\x85\\xd5\\xd13\\xc55\\xd1;\\xff\\xde\\x8a\\xcfr\\x9b\\xdcs\\x18+\\xcb\\r\\xbdlh,\\xea\"bk\\xb8\\x98R\\xa3\\xceK\\x9d\\xf9\\xac\\xf1\\x8bSR\\x04\\x91\\xc9\\xcbQn\\xefI\\x9b}\\x10\\xe1>\\xcc\\xa1\\x08\\x8b\\x12A\\xa4\\xef\\x1b!\\x83\\x86\\xfe4E#\\x8d\\xd8\\xb5\\xe8&\\x89<\\xfdM\\xc13\\x02jG\\xbd\\xdegOmi\\xb9{\\xc9\\x05\\xc5\\x98{a\\x1d\\x82\\xac\\xfe\\xf6\\xc9j\\x9a\\x1b\\xe5\\x1d\\x14\\xb0\\x81\\x1d\\x05o6\\x85P\\x9d\"\\x95\\x97\\x8b\\xbc\\xf9\\x85\\x7f\\xa0,\\xe7d\\tK\\x1f\\x80\\xa8\\x879\\x07\\xb2^\\xdc:\\xd8\\xaa\\xf2\\x08\\xe9\\x00\\n\\xae\\x82\\x9bwN\\xac\\xad\\xf5\\x81pW[D\\xe3H\\x0e\\xbc\\xd2\\xcf\\x94dM(\\xbc&\\xa1a\\x14T\\xc2\\x1aO\\xf6HO\\x02\\x10=\\xe0\\x0cd\\x18\\xab\\xb5\\xed\\x13.'",
+            "srp_id": 8372212287796450334,
+            "hint": "масленица"
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:32] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928027871936512,
+    "seq_no": 11,
+    "length": 16,
+    "body": {
+        "_": "functions.PingDelayDisconnect",
+        "ping_id": 0,
+        "disconnect_delay": 25
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:32] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928031424710657,
+    "seq_no": 10,
+    "length": 20,
+    "body": {
+        "_": "types.Pong",
+        "msg_id": 7300928027871936512,
+        "ping_id": 0
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:32] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928027871936520,
+    "seq_no": 13,
+    "length": 4,
+    "body": {
+        "_": "functions.account.GetPassword"
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:32] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928034350077953,
+    "seq_no": 11,
+    "length": 992,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928027871936520,
+        "result": {
+            "_": "types.account.Password",
+            "new_algo": {
+                "_": "types.PasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow",
+                "salt1": "b'\\xc7o\\xd3\\xd6\\xa6\\x97\\xf7N'",
+                "salt2": "b'\\n\\xc8v1\\x9d0H;\\xcd\\x900\\x12\\xde\\xeeOq'",
+                "g": 3,
+                "p": "b'\\xc7\\x1c\\xae\\xb9\\xc6\\xb1\\xc9\\x04\\x8elR/p\\xf1?s\\x98\\r@#\\x8e>!\\xc1I4\\xd07V=\\x93\\x0fH\\x19\\x8a\\n\\xa7\\xc1@X\"\\x94\\x93\\xd2%0\\xf4\\xdb\\xfa3on\\n\\xc9%\\x13\\x95C\\xae\\xd4L\\xce|7 \\xfdQ\\xf6\\x94XpZ\\xc6\\x8c\\xd4\\xfekk\\x13\\xab\\xdc\\x97FQ)i2\\x84T\\xf1\\x8f\\xaf\\x8cY_d$w\\xfe\\x96\\xbb*\\x94\\x1d[\\xcd\\x1dJ\\xc8\\xccI\\x88\\x07\\x08\\xfa\\x9b7\\x8e<O:\\x90`\\xbe\\xe6|\\xf9\\xa4\\xa4\\xa6\\x95\\x81\\x10Q\\x90~\\x16\\'S\\xb5k\\x0fkA\\r\\xbat\\xd8\\xa8K*\\x14\\xb3\\x14N\\x0e\\xf1(GT\\xfd\\x17\\xed\\x95\\rYe\\xb4\\xb9\\xddFX-\\xb1\\x17\\x8d\\x16\\x9ck\\xc4e\\xb0\\xd6\\xff\\x9c\\xa3\\x92\\x8f\\xef[\\x9a\\xe4\\xe4\\x18\\xfc\\x15\\xe8>\\xbe\\xa0\\xf8\\x7f\\xa9\\xff^\\xedp\\x05\\r\\xed(I\\xf4{\\xf9Y\\xd9V\\x85\\x0c\\xe9)\\x85\\x1f\\r\\x81\\x15\\xf65\\xb1\\x05\\xee.N\\x15\\xd0K$T\\xbfoO\\xad\\xf04\\xb1\\x04\\x03\\x11\\x9c\\xd8\\xe3\\xb9/\\xcc['"
+            },
+            "new_secure_algo": {
+                "_": "types.SecurePasswordKdfAlgoPBKDF2HMACSHA512iter100000",
+                "salt": "b'V\\xd5P\\xaf>$$Q'"
+            },
+            "secure_random": "b'\\x9c\\xf8\\x00\\x1f\\xf4\\xb6\\x90\\x9d\\x06~\\xcc\\xd3\\xcd\\x08\\x10\\x0c\\xaf\\x84jLv\\xac\\xaa\\xc7\\x92\\xb5\\x954\\xfc\\xf2\\xbaT\\xb6\\x87\\xa9\\xc7\\xa1Q\\x0b&,\\xedA\\x0f\\xb8$;+[\\x8d3\\xdc\\xbcK\\xb9\\x141\\x1f\\xd3\\xdb@/\\xe9H\\xcc\\xc1\\xd9\\xdeK\\xfe*\\n\\xc0,\\x03\\xe06\\x86\\x1e\\xef\\xfb\\x8e\\xa4\\x15\\x00\\xc3\\xd5d\\xfe\\x0c/7i\\xda@n[y3\\x08^\\xb5\\xb71\\x8d\\xd1\\xdfd\\x0fl\\xa7\\x17-\\xd7o\\x11\\xfc\\xec\\x00\\xf2\\xe1M\\xdb\\xd7|4x{\\xc9\\xaf\\x1f\\xaa\\xbe\\n\\xa5\\xba#\\xc6\\x95\\xcb9*`\\xebb,\\xbfi\\xa8\\xd0\\x0c\\r],\\xffB\\t/F\\x1a\\xc0\\xa70\\x87\\x14O)\\x81J`\\xd6]\\x12\\xd8}\\xc1H\\xcfX\\xd4\\xdc\\xa8L\\x1aZ\\x0f\\xc2\\x15\\x8e\\x96\\xa28\\xd4\\x92\\xe4\\x98\\xc7\\xa8\\t\\xcb\\x8c\\xcc9\\x1cj\\x00\\x88\\x9a\\xbdn\\x85z\\x9c\\xb0\\x91,\\xd5\\xfd\\xb0\\xd0\\x82>\\xcd+\\x8b|1x\\x82\\x93\\x92CbPU9\\x1dJ\\x8d}Y\\x17o\\xa1@K\\xe6\"yc\\xe9\\xd3k\\xd1p\\x13'",
+            "has_recovery": false,
+            "has_secure_values": false,
+            "has_password": true,
+            "current_algo": {
+                "_": "types.PasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow",
+                "salt1": "b'\\xc7o\\xd3\\xd6\\xa6\\x97\\xf7N\\x9f\\xd4\\x89\\x14)sI\\xcf\\xdb$5\\xd4W\\x7fW\\t&~T\\xcb\\x90\\x1a%6 T\\x02\\x85\\xef=\\xac\\xfa'",
+                "salt2": "b'\\n\\xc8v1\\x9d0H;\\xcd\\x900\\x12\\xde\\xeeOq'",
+                "g": 3,
+                "p": "b'\\xc7\\x1c\\xae\\xb9\\xc6\\xb1\\xc9\\x04\\x8elR/p\\xf1?s\\x98\\r@#\\x8e>!\\xc1I4\\xd07V=\\x93\\x0fH\\x19\\x8a\\n\\xa7\\xc1@X\"\\x94\\x93\\xd2%0\\xf4\\xdb\\xfa3on\\n\\xc9%\\x13\\x95C\\xae\\xd4L\\xce|7 \\xfdQ\\xf6\\x94XpZ\\xc6\\x8c\\xd4\\xfekk\\x13\\xab\\xdc\\x97FQ)i2\\x84T\\xf1\\x8f\\xaf\\x8cY_d$w\\xfe\\x96\\xbb*\\x94\\x1d[\\xcd\\x1dJ\\xc8\\xccI\\x88\\x07\\x08\\xfa\\x9b7\\x8e<O:\\x90`\\xbe\\xe6|\\xf9\\xa4\\xa4\\xa6\\x95\\x81\\x10Q\\x90~\\x16\\'S\\xb5k\\x0fkA\\r\\xbat\\xd8\\xa8K*\\x14\\xb3\\x14N\\x0e\\xf1(GT\\xfd\\x17\\xed\\x95\\rYe\\xb4\\xb9\\xddFX-\\xb1\\x17\\x8d\\x16\\x9ck\\xc4e\\xb0\\xd6\\xff\\x9c\\xa3\\x92\\x8f\\xef[\\x9a\\xe4\\xe4\\x18\\xfc\\x15\\xe8>\\xbe\\xa0\\xf8\\x7f\\xa9\\xff^\\xedp\\x05\\r\\xed(I\\xf4{\\xf9Y\\xd9V\\x85\\x0c\\xe9)\\x85\\x1f\\r\\x81\\x15\\xf65\\xb1\\x05\\xee.N\\x15\\xd0K$T\\xbfoO\\xad\\xf04\\xb1\\x04\\x03\\x11\\x9c\\xd8\\xe3\\xb9/\\xcc['"
+            },
+            "srp_B": "b'\\xabvE\\xa4\\xfa1O\\x14~<\\xdft\\x8f6;\\xc5\\x86\\x93*\\x80\\x0f\\x00/\\xa7-\\xbe\\xd8\\xf1*Z0\\xd8\\r\\xf6sZ\"\\xe0\\xb5\\x0e\\xad\\t\\xcbm\\xbc\\xd4\\x90n1\\xce\\xef\\xd2D\\xa5\\x95@C\\xd2^\\x85\\xd5\\xd13\\xc55\\xd1;\\xff\\xde\\x8a\\xcfr\\x9b\\xdcs\\x18+\\xcb\\r\\xbdlh,\\xea\"bk\\xb8\\x98R\\xa3\\xceK\\x9d\\xf9\\xac\\xf1\\x8bSR\\x04\\x91\\xc9\\xcbQn\\xefI\\x9b}\\x10\\xe1>\\xcc\\xa1\\x08\\x8b\\x12A\\xa4\\xef\\x1b!\\x83\\x86\\xfe4E#\\x8d\\xd8\\xb5\\xe8&\\x89<\\xfdM\\xc13\\x02jG\\xbd\\xdegOmi\\xb9{\\xc9\\x05\\xc5\\x98{a\\x1d\\x82\\xac\\xfe\\xf6\\xc9j\\x9a\\x1b\\xe5\\x1d\\x14\\xb0\\x81\\x1d\\x05o6\\x85P\\x9d\"\\x95\\x97\\x8b\\xbc\\xf9\\x85\\x7f\\xa0,\\xe7d\\tK\\x1f\\x80\\xa8\\x879\\x07\\xb2^\\xdc:\\xd8\\xaa\\xf2\\x08\\xe9\\x00\\n\\xae\\x82\\x9bwN\\xac\\xad\\xf5\\x81pW[D\\xe3H\\x0e\\xbc\\xd2\\xcf\\x94dM(\\xbc&\\xa1a\\x14T\\xc2\\x1aO\\xf6HO\\x02\\x10=\\xe0\\x0cd\\x18\\xab\\xb5\\xed\\x13.'",
+            "srp_id": 8372212287796450334,
+            "hint": "масленица"
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:33] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928032166903812,
+    "seq_no": 15,
+    "length": 312,
+    "body": {
+        "_": "functions.auth.CheckPassword",
+        "password": {
+            "_": "types.InputCheckPasswordSRP",
+            "srp_id": 8372212287796450334,
+            "A": "b'\\x89\\xf3\\xef\\xbd\\xb4\\xd0\\x84\\xf0\\x94\\xc52yX&Z\\xcb(\\xa5\\xe9L\\xc0([\\xc2\\xaa\\x9fY\\x01g\\xaa\\xbbT\\x14\\x93\\x15\\xf7\\xf8\\x86K1\\xd3-4\"\\xb1\\xee>\\\\\\xab\\x027\\x12\\x7fUD\\xb8k\\x06\\xb8\\x9b\\xf2\\xa3\\x8cc\\xf2\\xbe M\\xee\\xeb\\xe6.\\xb1;?X\\x0f\\x11K\\xf6\\xcf88\\xb7\\x94:\\x8c\\r\\x83\\xb0\\x02n\\xee\\xc1\\x94\\xb9*\\xebT\\xd7\\xe1\\x92\\x08q\\xea\\x12\\x0cd{\\x9co\\xb0/\\x9f\\x07\\x99Q8\\x8c\\xa0N\\xe5\\xf6\\x19\\x01\\x0c\\xfa\\x83rQz\\xfa\\x18\\x17ep7\\x8f\\x89g\\xbe\\xee\\x19\\x8c\\xa1\\xbd\\'\\x0c\\xce\\xdf\\x94)T\\x1f\\x85\\xa0\\x98)\\xe2\\x02o\\xfa\\x87\\xd6\\xa87\\x12\\xfd\\x9b\\x10d\\x7f%\\xad\\xc5JLn\\xb7\\xf5w}\\xf5\\x14\\xfd\\xff/ck@\\x03\\x0c\\xc8\\xae\\r\\xdb\\xd8L\\xf4\\x9b\\xd6\\x88\\xa6)\\x8d\\xa7-\\xf7\\x0f\\xc4\\xa8\\xa8Z\\xb1\\xc4D\\xae\\x89\\xd2\\x08J+v\\x01\\xc8\\x14n\\xbb.\\xb6\\x14V}7\\xc0J\\xb8d2\\x8f\\xacN \\x1co\\x08\\xf0\\xd7\"O\\xfa\\xba\\xf1\\x13\\x07U'",
+            "M1": "b'q\\xa7\\x91\\xf7\\x88 \\xc1$\\xef\\x1b\\xf7\\xcd~zG\\x00\\x97+m\\xcbo\\xd8\\xccA\\x19\\xba\\xd3>6W\\xf3&'"
+        }
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:33] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928037326005249,
+    "seq_no": 13,
+    "length": 44,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928032166903812,
+        "result": {
+            "_": "types.RpcError",
+            "error_code": 400,
+            "error_message": "PASSWORD_HASH_INVALID"
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:33] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928032166903820,
+    "seq_no": 17,
+    "length": 4,
+    "body": {
+        "_": "functions.account.GetPassword"
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:34] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928038772048897,
+    "seq_no": 15,
+    "length": 992,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928032166903820,
+        "result": {
+            "_": "types.account.Password",
+            "new_algo": {
+                "_": "types.PasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow",
+                "salt1": "b'\\xc7o\\xd3\\xd6\\xa6\\x97\\xf7N'",
+                "salt2": "b'\\n\\xc8v1\\x9d0H;\\xcd\\x900\\x12\\xde\\xeeOq'",
+                "g": 3,
+                "p": "b'\\xc7\\x1c\\xae\\xb9\\xc6\\xb1\\xc9\\x04\\x8elR/p\\xf1?s\\x98\\r@#\\x8e>!\\xc1I4\\xd07V=\\x93\\x0fH\\x19\\x8a\\n\\xa7\\xc1@X\"\\x94\\x93\\xd2%0\\xf4\\xdb\\xfa3on\\n\\xc9%\\x13\\x95C\\xae\\xd4L\\xce|7 \\xfdQ\\xf6\\x94XpZ\\xc6\\x8c\\xd4\\xfekk\\x13\\xab\\xdc\\x97FQ)i2\\x84T\\xf1\\x8f\\xaf\\x8cY_d$w\\xfe\\x96\\xbb*\\x94\\x1d[\\xcd\\x1dJ\\xc8\\xccI\\x88\\x07\\x08\\xfa\\x9b7\\x8e<O:\\x90`\\xbe\\xe6|\\xf9\\xa4\\xa4\\xa6\\x95\\x81\\x10Q\\x90~\\x16\\'S\\xb5k\\x0fkA\\r\\xbat\\xd8\\xa8K*\\x14\\xb3\\x14N\\x0e\\xf1(GT\\xfd\\x17\\xed\\x95\\rYe\\xb4\\xb9\\xddFX-\\xb1\\x17\\x8d\\x16\\x9ck\\xc4e\\xb0\\xd6\\xff\\x9c\\xa3\\x92\\x8f\\xef[\\x9a\\xe4\\xe4\\x18\\xfc\\x15\\xe8>\\xbe\\xa0\\xf8\\x7f\\xa9\\xff^\\xedp\\x05\\r\\xed(I\\xf4{\\xf9Y\\xd9V\\x85\\x0c\\xe9)\\x85\\x1f\\r\\x81\\x15\\xf65\\xb1\\x05\\xee.N\\x15\\xd0K$T\\xbfoO\\xad\\xf04\\xb1\\x04\\x03\\x11\\x9c\\xd8\\xe3\\xb9/\\xcc['"
+            },
+            "new_secure_algo": {
+                "_": "types.SecurePasswordKdfAlgoPBKDF2HMACSHA512iter100000",
+                "salt": "b'V\\xd5P\\xaf>$$Q'"
+            },
+            "secure_random": "b'z\\x85\\x1d\\xf6f\\x9f\\x1a\\xcc8\\xd2\\xd0\\x03\\x7f\\xa2\\x93\\xd5\\x16\\x03.\\xdfl\\xd9?ad E\\x13\\xcc\\x90\\xfc#w^\\x96\\xbe0\\x9es~\\x95\\x92i5\\x13\\x15\\xa8o\\xbf0\\xc9u\\x18t9{`\\xa2V\\x8d;\\x08G\\xa7\\xa3\\xf0\\xf80\\xb7~\\xfd\\x04\\x17e\\xc0tr\\r\\xcdDMbNP$\\t\\xd9\\xf1\\xd0b\\xfavV\\xa2dpe\\xd6q,!ae\\x11\\x93\\xee\\xf9x\\x91Pi?\\xe3\\xb8\\xeb\\xc1\\x1cLe\\x06\\xed\\xf3\\xd9fck\\x88.\\x85\\xbe\\xdb\\x83Cf(\\xfa+\\x13\\x91\\n9j\\x7f\\xb4\\xb8\\xfd\\xbb\\xfa\\x0cfW2\\x90\\x14k\\x8a\\x89\\xaad\\x8a\\x93\\xb4S\\xe2\\xc2\\x06\\xac\\xd3 \\x9f\\xa5\\xc5A\\xc4\\xfe\\x9f0\\xe1\\xdc\\xa8v\\xbd\\x92Vv\\xe1\\x1d\\x8e1\\xd9{R\\xa7\\xe3\\xa4\\x87}\\xf9\\xd1Y\\xcdi|\\x9a\\x91\\xc5\\x12\\x89\\xa9\\x19\\x18\\xfe=~x\\x009\\x1c\\x82\\x99\\x19\\xb1\\x1b\\xd0v=\\xbfY\\x15d\\xff\\xf5\\x06\\xec\\x9f%R\\x1dK\\xe6\\xdc\\x7f\\x9f8\\xb9\\x93\\xa0\\xdf\\xde\\x17\\xd8\\x92\\xd9\\x9c\\x02\\xec'",
+            "has_recovery": false,
+            "has_secure_values": false,
+            "has_password": true,
+            "current_algo": {
+                "_": "types.PasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow",
+                "salt1": "b'\\xc7o\\xd3\\xd6\\xa6\\x97\\xf7N\\x9f\\xd4\\x89\\x14)sI\\xcf\\xdb$5\\xd4W\\x7fW\\t&~T\\xcb\\x90\\x1a%6 T\\x02\\x85\\xef=\\xac\\xfa'",
+                "salt2": "b'\\n\\xc8v1\\x9d0H;\\xcd\\x900\\x12\\xde\\xeeOq'",
+                "g": 3,
+                "p": "b'\\xc7\\x1c\\xae\\xb9\\xc6\\xb1\\xc9\\x04\\x8elR/p\\xf1?s\\x98\\r@#\\x8e>!\\xc1I4\\xd07V=\\x93\\x0fH\\x19\\x8a\\n\\xa7\\xc1@X\"\\x94\\x93\\xd2%0\\xf4\\xdb\\xfa3on\\n\\xc9%\\x13\\x95C\\xae\\xd4L\\xce|7 \\xfdQ\\xf6\\x94XpZ\\xc6\\x8c\\xd4\\xfekk\\x13\\xab\\xdc\\x97FQ)i2\\x84T\\xf1\\x8f\\xaf\\x8cY_d$w\\xfe\\x96\\xbb*\\x94\\x1d[\\xcd\\x1dJ\\xc8\\xccI\\x88\\x07\\x08\\xfa\\x9b7\\x8e<O:\\x90`\\xbe\\xe6|\\xf9\\xa4\\xa4\\xa6\\x95\\x81\\x10Q\\x90~\\x16\\'S\\xb5k\\x0fkA\\r\\xbat\\xd8\\xa8K*\\x14\\xb3\\x14N\\x0e\\xf1(GT\\xfd\\x17\\xed\\x95\\rYe\\xb4\\xb9\\xddFX-\\xb1\\x17\\x8d\\x16\\x9ck\\xc4e\\xb0\\xd6\\xff\\x9c\\xa3\\x92\\x8f\\xef[\\x9a\\xe4\\xe4\\x18\\xfc\\x15\\xe8>\\xbe\\xa0\\xf8\\x7f\\xa9\\xff^\\xedp\\x05\\r\\xed(I\\xf4{\\xf9Y\\xd9V\\x85\\x0c\\xe9)\\x85\\x1f\\r\\x81\\x15\\xf65\\xb1\\x05\\xee.N\\x15\\xd0K$T\\xbfoO\\xad\\xf04\\xb1\\x04\\x03\\x11\\x9c\\xd8\\xe3\\xb9/\\xcc['"
+            },
+            "srp_B": "b'\\'\\x12\\x03\\x16\\xff\\x08\\xdc\\xabD/\\xe6\\x88\\xf4\\xcd\\xdfh(H\\xccl\\x84\\xc2\\xa46\\xe0\\x9c\\xf2\\xbf\\x98o\\xb9rf\\xd7WqOv\\xe8\\x16z\\x06\\x19\\x83J\\xad\\xf6\\xcf\\x0ba\\x975\\xfd\\xcb\\n{\\xd9K\\x04\\xb5\\x15\\x10x8\\xd7\\t\\x80?\\xa7\\x11Ak\\xb9IP\\xfd!(\\xff\\':\\x01\\x18+\\xcfSaT>s#\\x80\\xbbS\\xad\\xf7>t\\xd6\\xb9*p\\x07\\xb1\\x80\\x86\\x1d\\xb6n!W\\x8a\\xa4\\xfc\\xdd=E\\x1fW\\x06\\xf3P\\x06E+{o,\\x88\\x06\\xd1\\x81h\\x80\\xe8G\\xa2\\xcb\\xa4N\\x89<\\xa5K9:\\xfb\\xa4\\xca\\xc9\\x92\\x99\\xca]\\xf2c\\xab\\xdd\\x93,\\xf8\\x1au\\xdd:=0\\x140x\\xc3\\xbb!629i\\xf0N\\x15\\xc0\\x01\\xd1\\x7f\\x92rO\\xf0\\xd5k\\x1a,\\x08J\\xc4R\\xfc\\x1aY6\\x84\\x108-\\x8eY\\x82\\xa4=^:\\xf4\\xa2\\xd1:,rM*\\r\\x81\\x9a\\x9f\\xc1\\xeb\\\\3\\x14h\\xd8\\xbb\\xa5JB\\x8ew\\xd6\\xa7}\\x9av\\x84E\\xac\\x19\\x95\\x1d\\x12\"*_\\xd9\\xbeK\\xcb\\x89'",
+            "srp_id": -2851639879200243630,
+            "hint": "масленица"
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:36] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928045051805696,
+    "seq_no": 19,
+    "length": 4,
+    "body": {
+        "_": "functions.account.GetPassword"
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:37] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928051776648193,
+    "seq_no": 17,
+    "length": 988,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928045051805696,
+        "result": {
+            "_": "types.account.Password",
+            "new_algo": {
+                "_": "types.PasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow",
+                "salt1": "b'\\xc7o\\xd3\\xd6\\xa6\\x97\\xf7N'",
+                "salt2": "b'\\n\\xc8v1\\x9d0H;\\xcd\\x900\\x12\\xde\\xeeOq'",
+                "g": 3,
+                "p": "b'\\xc7\\x1c\\xae\\xb9\\xc6\\xb1\\xc9\\x04\\x8elR/p\\xf1?s\\x98\\r@#\\x8e>!\\xc1I4\\xd07V=\\x93\\x0fH\\x19\\x8a\\n\\xa7\\xc1@X\"\\x94\\x93\\xd2%0\\xf4\\xdb\\xfa3on\\n\\xc9%\\x13\\x95C\\xae\\xd4L\\xce|7 \\xfdQ\\xf6\\x94XpZ\\xc6\\x8c\\xd4\\xfekk\\x13\\xab\\xdc\\x97FQ)i2\\x84T\\xf1\\x8f\\xaf\\x8cY_d$w\\xfe\\x96\\xbb*\\x94\\x1d[\\xcd\\x1dJ\\xc8\\xccI\\x88\\x07\\x08\\xfa\\x9b7\\x8e<O:\\x90`\\xbe\\xe6|\\xf9\\xa4\\xa4\\xa6\\x95\\x81\\x10Q\\x90~\\x16\\'S\\xb5k\\x0fkA\\r\\xbat\\xd8\\xa8K*\\x14\\xb3\\x14N\\x0e\\xf1(GT\\xfd\\x17\\xed\\x95\\rYe\\xb4\\xb9\\xddFX-\\xb1\\x17\\x8d\\x16\\x9ck\\xc4e\\xb0\\xd6\\xff\\x9c\\xa3\\x92\\x8f\\xef[\\x9a\\xe4\\xe4\\x18\\xfc\\x15\\xe8>\\xbe\\xa0\\xf8\\x7f\\xa9\\xff^\\xedp\\x05\\r\\xed(I\\xf4{\\xf9Y\\xd9V\\x85\\x0c\\xe9)\\x85\\x1f\\r\\x81\\x15\\xf65\\xb1\\x05\\xee.N\\x15\\xd0K$T\\xbfoO\\xad\\xf04\\xb1\\x04\\x03\\x11\\x9c\\xd8\\xe3\\xb9/\\xcc['"
+            },
+            "new_secure_algo": {
+                "_": "types.SecurePasswordKdfAlgoPBKDF2HMACSHA512iter100000",
+                "salt": "b'V\\xd5P\\xaf>$$Q'"
+            },
+            "secure_random": "b'\\xf3\\x1d\\x81\\x91g\\x9a\\x98\\xc9!\\xd1\\xc2\\xaa\\xfa\\xaa\\xc8\\xd2\\xe1\\xf2pb\\'\\x1f \\x0b\\xa9\\xee\\x1e5\\t\\x10\\x1b]\\xd2\\xb4\\xdb\\xb8\\xbf1\\x95\\xc9\\x1anR\\xdc\\xa9\\xfch}\\x8e\\x02\\xbc\\x8dm\\xeeJ\\xc2I\\x84\\x07s\\xb4:\\xc1\\xf7\\xde\\x04W\\x8d\\xcc\\x1a\\xd4\\xb2\\xad;\\x02#L6bN\\x87\\xcb\\x7f\\x1d\\xef_\\xa49\\xde\\x81\\xed\\xf5:\\xb8\\x84\\x11f\\x15\\xdf?\\xb1sG]\\x06E]{\\n\\x99g\\xf5\\xa8a.\\xf7Dw\\xa41\\x0eFA)Z\\x15\\xb2\\x11\\xba\\x1c\\x97\\xb2b8\\xfc\\xce\\xdeb\\x8a\\x19\\xd5a!\\'\\xf2\\x87\\xe0.rB\\xcfY\\x82\\xef\\x9b\\xd0\\t%|WnKsD\\xcd0\\x8e\\x97]\\x85o+R\\x92\\xe5\\xbb\\xc7Viz=\\xba0\\x1e\\xec\\x8f\\x19\\xd1\\xc6\\xc3M\\xe8\\xcc\\xfd\"\\x81\\xae\\xca\\xff!\\xd2\\xfc[\\xec\\xd9A-C\\xf5f-k\\x17\\x9b\\xe7-\\xcd\\xad\\x82\\x0f\\xbb\\xe3rp\\xe8yWXq\\xef\\x01Dg\\xe8\\xb0\\x1c\\x10\\x11\\xbb\\x9c_{\\x80\\x8e0\\x93q5\\xfa\\xed_\\xd4.\\x1fO\\x9c'",
+            "has_recovery": false,
+            "has_secure_values": false,
+            "has_password": true,
+            "current_algo": {
+                "_": "types.PasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow",
+                "salt1": "b'\\xc7o\\xd3\\xd6\\xa6\\x97\\xf7N\\x9f\\xd4\\x89\\x14)sI\\xcf\\xdb$5\\xd4W\\x7fW\\t&~T\\xcb\\x90\\x1a%6 T\\x02\\x85\\xef=\\xac\\xfa'",
+                "salt2": "b'\\n\\xc8v1\\x9d0H;\\xcd\\x900\\x12\\xde\\xeeOq'",
+                "g": 3,
+                "p": "b'\\xc7\\x1c\\xae\\xb9\\xc6\\xb1\\xc9\\x04\\x8elR/p\\xf1?s\\x98\\r@#\\x8e>!\\xc1I4\\xd07V=\\x93\\x0fH\\x19\\x8a\\n\\xa7\\xc1@X\"\\x94\\x93\\xd2%0\\xf4\\xdb\\xfa3on\\n\\xc9%\\x13\\x95C\\xae\\xd4L\\xce|7 \\xfdQ\\xf6\\x94XpZ\\xc6\\x8c\\xd4\\xfekk\\x13\\xab\\xdc\\x97FQ)i2\\x84T\\xf1\\x8f\\xaf\\x8cY_d$w\\xfe\\x96\\xbb*\\x94\\x1d[\\xcd\\x1dJ\\xc8\\xccI\\x88\\x07\\x08\\xfa\\x9b7\\x8e<O:\\x90`\\xbe\\xe6|\\xf9\\xa4\\xa4\\xa6\\x95\\x81\\x10Q\\x90~\\x16\\'S\\xb5k\\x0fkA\\r\\xbat\\xd8\\xa8K*\\x14\\xb3\\x14N\\x0e\\xf1(GT\\xfd\\x17\\xed\\x95\\rYe\\xb4\\xb9\\xddFX-\\xb1\\x17\\x8d\\x16\\x9ck\\xc4e\\xb0\\xd6\\xff\\x9c\\xa3\\x92\\x8f\\xef[\\x9a\\xe4\\xe4\\x18\\xfc\\x15\\xe8>\\xbe\\xa0\\xf8\\x7f\\xa9\\xff^\\xedp\\x05\\r\\xed(I\\xf4{\\xf9Y\\xd9V\\x85\\x0c\\xe9)\\x85\\x1f\\r\\x81\\x15\\xf65\\xb1\\x05\\xee.N\\x15\\xd0K$T\\xbfoO\\xad\\xf04\\xb1\\x04\\x03\\x11\\x9c\\xd8\\xe3\\xb9/\\xcc['"
+            },
+            "srp_B": "b'\\'\\x12\\x03\\x16\\xff\\x08\\xdc\\xabD/\\xe6\\x88\\xf4\\xcd\\xdfh(H\\xccl\\x84\\xc2\\xa46\\xe0\\x9c\\xf2\\xbf\\x98o\\xb9rf\\xd7WqOv\\xe8\\x16z\\x06\\x19\\x83J\\xad\\xf6\\xcf\\x0ba\\x975\\xfd\\xcb\\n{\\xd9K\\x04\\xb5\\x15\\x10x8\\xd7\\t\\x80?\\xa7\\x11Ak\\xb9IP\\xfd!(\\xff\\':\\x01\\x18+\\xcfSaT>s#\\x80\\xbbS\\xad\\xf7>t\\xd6\\xb9*p\\x07\\xb1\\x80\\x86\\x1d\\xb6n!W\\x8a\\xa4\\xfc\\xdd=E\\x1fW\\x06\\xf3P\\x06E+{o,\\x88\\x06\\xd1\\x81h\\x80\\xe8G\\xa2\\xcb\\xa4N\\x89<\\xa5K9:\\xfb\\xa4\\xca\\xc9\\x92\\x99\\xca]\\xf2c\\xab\\xdd\\x93,\\xf8\\x1au\\xdd:=0\\x140x\\xc3\\xbb!629i\\xf0N\\x15\\xc0\\x01\\xd1\\x7f\\x92rO\\xf0\\xd5k\\x1a,\\x08J\\xc4R\\xfc\\x1aY6\\x84\\x108-\\x8eY\\x82\\xa4=^:\\xf4\\xa2\\xd1:,rM*\\r\\x81\\x9a\\x9f\\xc1\\xeb\\\\3\\x14h\\xd8\\xbb\\xa5JB\\x8ew\\xd6\\xa7}\\x9av\\x84E\\xac\\x19\\x95\\x1d\\x12\"*_\\xd9\\xbeK\\xcb\\x89'",
+            "srp_id": -2851639879200243630,
+            "hint": "масленица"
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:37] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928049346772996,
+    "seq_no": 21,
+    "length": 312,
+    "body": {
+        "_": "functions.auth.CheckPassword",
+        "password": {
+            "_": "types.InputCheckPasswordSRP",
+            "srp_id": -2851639879200243630,
+            "A": "b\"\\xb7\\x96\\xb9\\x85\\x0c\\x05\\xc3\\xd11\\xbe\\x95A\\xe6x\\xcd\\xa9<7o\\x8e\\xf59=i\\xfd#\\x86y!\\xb7\\x8f6,\\xb0S-@\\x05\\xa3\\x12\\x93B\\xd8H\\xfbu\\x83\\x00wU12\\nNP\\xb6\\xaf\\xa0Kw\\x9c{\\x8b\\x1dc\\x1c\\x046l\\x14\\xaf\\x91\\x1c\\xd1\\xea\\xc2W\\xe8\\xd5v\\xbc\\x81\\x90\\x9e\\x0e\\x98rD\\x05\\xf3k\\xa4W\\xcaQ\\x16x\\x8d\\xf2\\x10\\x04\\xd5\\x92bS\\x9fX\\xca\\x17\\x97\\xd3e\\xf5Qi\\x9a\\x1c\\xdc?\\xf7\\x1c.\\x8f\\x8al\\xb6\\x17\\x91f&\\xbe\\x01 \\x9e\\xc3uR\\xdd\\xa4j\\x97\\xf2\\xf4\\x8f\\xfa\\x12\\x16+\\x8a\\xc9\\xeaq\\xf4\\xc6u\\xf8\\xfb.\\xcc.\\xb9\\xbe\\x92\\xf4\\xf8M\\x04\\xc7$M_G\\x8f\\xdb\\xc9\\xe7\\xbfdyy\\r\\xf2\\x15\\xf8\\xd6%\\xb9\\x99\\x15\\xc0\\xa1E\\xf7Z\\x94\\xd8\\x12q7\\x04;.P@;@\\xab4\\x13R\\xae\\xe5w\\xef\\xc0=\\xa9 \\x88\\xd6\\xcb\\x8e\\x9d\\xe4\\x11\\xa8\\xb4'r\\xe5\\t\\xc1\\x07v\\x1d5Q\\x022\\x84x \\x0em\\xb6\\x976\\xf0\\x9fF\\xa7\\xc1\\xd5\\xd0fL\"",
+            "M1": "b'\\x9d\\x19\\x1a\\x99q\\xde\\x95\\xdcCf\\xc75\\x97\\xfe\\xa3\\xbe\\x16\\x0e\\xa1\\xa0\\x12\\xb5\\\\\\x02\\xff\\x80\\xfb\\xabk\\xd9fV'"
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:37] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928049346773000,
+    "seq_no": 23,
+    "length": 16,
+    "body": {
+        "_": "functions.PingDelayDisconnect",
+        "ping_id": 0,
+        "disconnect_delay": 25
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:37] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928054388518913,
+    "seq_no": 19,
+    "length": 140,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928049346772996,
+        "result": {
+            "_": "types.auth.Authorization",
+            "user": {
+                "_": "types.User",
+                "id": 6723902905,
+                "is_self": true,
+                "contact": false,
+                "mutual_contact": false,
+                "deleted": false,
+                "bot": false,
+                "bot_chat_history": false,
+                "bot_nochats": false,
+                "verified": false,
+                "restricted": false,
+                "min": false,
+                "bot_inline_geo": false,
+                "support": false,
+                "scam": false,
+                "apply_min_photo": true,
+                "fake": false,
+                "bot_attach_menu": false,
+                "premium": false,
+                "attach_menu_enabled": false,
+                "bot_can_edit": false,
+                "access_hash": 24404620939201901,
+                "first_name": "Трейдер Сигналы",
+                "username": "Shark_markets",
+                "phone": "6282165232920",
+                "status": {
+                    "_": "types.UserStatusOffline",
+                    "was_online": 1699879770
+                },
+                "restriction_reason": [],
+                "usernames": []
+            },
+            "setup_password_required": false,
+            "future_auth_token": "b'b\\x1bRe\\x81\\x86X \\x0b\\xec\\xdaC\\x1fY\\x0b\\x95\\x9aM'"
+        }
+    }
+}
+session.py:262 #DEBUG    [2023-11-13 Monday 15:49:37] - pyrogram.session.session - Sending 10 acks
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:37] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928049346773008,
+    "seq_no": 24,
+    "length": 92,
+    "body": {
+        "_": "types.MsgsAck",
+        "msg_ids": [
+            7300927988596955137,
+            7300927985250920449,
+            7300927986324664321,
+            7300928012762626049,
+            7300928011439469569,
+            7300928034350077953,
+            7300928037326005249,
+            7300928038772048897,
+            7300928051776648193,
+            7300928054388518913
+        ]
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:37] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928049346773012,
+    "seq_no": 25,
+    "length": 4,
+    "body": {
+        "_": "functions.updates.GetState"
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:37] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928054467393537,
+    "seq_no": 20,
+    "length": 20,
+    "body": {
+        "_": "types.Pong",
+        "msg_id": 7300928049346773000,
+        "ping_id": 0
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:38] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928056411482113,
+    "seq_no": 21,
+    "length": 36,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928049346773012,
+        "result": {
+            "_": "types.updates.State",
+            "pts": 9,
+            "qts": 0,
+            "date": 1699879778,
+            "seq": 1,
+            "unread_count": 0
+        }
+    }
+}
+session.py:324 #DEBUG    [2023-11-13 Monday 15:49:38] - pyrogram.session.session - Sent: {
+    "_": "Message",
+    "msg_id": 7300928053641740292,
+    "seq_no": 27,
+    "length": 8,
+    "body": {
+        "_": "functions.users.GetFullUser",
+        "id": {
+            "_": "types.InputUserSelf"
+        }
+    }
+}
+session.py:202 #DEBUG    [2023-11-13 Monday 15:49:38] - pyrogram.session.session - Received: {
+    "_": "Message",
+    "msg_id": 7300928057381724161,
+    "seq_no": 23,
+    "length": 224,
+    "body": {
+        "_": "types.RpcResult",
+        "req_msg_id": 7300928053641740292,
+        "result": {
+            "_": "types.users.UserFull",
+            "full_user": {
+                "_": "types.UserFull",
+                "id": 6723902905,
+                "settings": {
+                    "_": "types.PeerSettings",
+                    "report_spam": false,
+                    "add_contact": false,
+                    "block_contact": false,
+                    "share_contact": false,
+                    "need_contacts_exception": false,
+                    "report_geo": false,
+                    "autoarchived": false,
+                    "invite_members": false,
+                    "request_chat_broadcast": false
+                },
+                "notify_settings": {
+                    "_": "types.PeerNotifySettings",
+                    "show_previews": true,
+                    "silent": false,
+                    "mute_until": 0,
+                    "ios_sound": {
+                        "_": "types.NotificationSoundDefault"
+                    },
+                    "android_sound": {
+                        "_": "types.NotificationSoundLocal",
+                        "title": "default",
+                        "data": "default"
+                    },
+                    "other_sound": {
+                        "_": "types.NotificationSoundLocal",
+                        "title": "default",
+                        "data": "default"
+                    }
+                },
+                "common_chats_count": 0,
+                "blocked": false,
+                "phone_calls_available": false,
+                "phone_calls_private": false,
+                "can_pin_message": true,
+                "has_scheduled": false,
+                "video_calls_available": false,
+                "voice_messages_forbidden": false,
+                "translations_disabled": false,
+                "premium_gifts": []
+            },
+            "chats": [],
+            "users": [
+                {
+                    "_": "types.User",
+                    "id": 6723902905,
+                    "is_self": true,
+                    "contact": false,
+                    "mutual_contact": false,
+                    "deleted": false,
+                    "bot": false,
+                    "bot_chat_history": false,
+                    "bot_nochats": false,
+                    "verified": false,
+                    "restricted": false,
+                    "min": false,
+                    "bot_inline_geo": false,
+                    "support": false,
+                    "scam": false,
+                    "apply_min_photo": true,
+                    "fake": false,
+                    "bot_attach_menu": false,
+                    "premium": false,
+                    "attach_menu_enabled": false,
+                    "bot_can_edit": false,
+                    "access_hash": 24404620939201901,
+                    "first_name": "Трейдер Сигналы",
+                    "username": "Shark_markets",
+                    "phone": "6282165232920",
+                    "status": {
+                        "_": "types.UserStatusOffline",
+                        "was_online": 1699879770
+                    },
+                    "restriction_reason": [],
+                    "usernames": []
+                }
+            ]
+        }
+    }
+}
+dispatcher.py:154 #INFO     [2023-11-13 Monday 15:49:38] - pyrogram.dispatcher - Started 12 HandlerTasks
