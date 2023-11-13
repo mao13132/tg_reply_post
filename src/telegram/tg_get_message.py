@@ -7,6 +7,7 @@
 #
 # ---------------------------------------------
 import time
+from datetime import datetime
 
 from settings import ADMIN_CHANEL
 from src.logic._logger import logger_msg
@@ -81,14 +82,14 @@ class TgGetMessage:
             if new_channel:
                 res_add = self.BotDB.add_message(id_channel, id_message)
 
-                logger_msg(f'Добавил последние сообщение из нового чата: "{res_add}"')
+                logger_msg(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} '
+                           f'Добавил последние сообщение из нового чата: "{res_add}"')
 
                 return True
 
             exist_post = self.BotDB.exist_message(id_channel, id_message)
 
             if exist_post:
-                print(f'Достиг конца проверки {link_channel}')
 
                 return True
 
@@ -97,7 +98,7 @@ class TgGetMessage:
             if not res_forward:
                 continue
 
-            logger_msg(f'Переслал сообщение из чата {link_channel}')
+            logger_msg(f'Переслал #{id_message} сообщение из чата {link_channel} в {target_id_chat}')
 
             res_add = self.BotDB.add_message(id_channel, id_message)
 

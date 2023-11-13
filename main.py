@@ -8,6 +8,8 @@
 # ---------------------------------------------
 import asyncio
 import os
+import time
+from datetime import datetime
 
 from settings import REFRESH_TIME
 from src.logic._logger import logger_msg
@@ -49,4 +51,13 @@ async def main():
 
 
 if __name__ == '__main__':
-    res = asyncio.run(main())
+    while True:
+
+        try:
+            res = asyncio.run(main())
+        except Exception as es:
+            logger_msg(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Ошибка главного потока "{es}"')
+
+            time.sleep(3600)
+
+            continue

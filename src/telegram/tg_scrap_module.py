@@ -7,6 +7,8 @@
 #
 # ---------------------------------------------
 import asyncio
+import time
+from datetime import datetime
 
 from settings import CHANNELS_DONOR, ADMIN_CHANEL
 from src.logic._logger import logger_msg
@@ -75,8 +77,11 @@ class ScrapModule:
 
             return False
 
-        for link_channel in CHANNELS_DONOR:
-            print(f'Начинаю обработку {link_channel}')
+        for count, link_channel in enumerate(CHANNELS_DONOR):
+            print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Начинаю обработку {link_channel}')
+
+            if count > 0:
+                time.sleep(60)
 
             id_channel = await self.get_id_channel(link_channel)
 
@@ -85,7 +90,7 @@ class ScrapModule:
 
             res = await self.incubator_job_channel(id_channel, link_channel, target_id_chat)
 
-            print(f'Закончил обработку {link_channel}')
+            print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Закончил обработку {link_channel}')
 
             good_count += 1
 
