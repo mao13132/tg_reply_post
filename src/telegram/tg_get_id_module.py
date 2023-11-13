@@ -6,31 +6,51 @@
 # 1.0       2023    Initial Version
 #
 # ---------------------------------------------
+import asyncio
+
+from src.logic._logger import logger_msg
+from src.telegram.join_chat import JoinChat
+
+
 class TgGetIdModule:
     def __init__(self, telegram_core, BotDB):
         self.BotDB = BotDB
         self.telegram_core = telegram_core
 
     async def get_id_channel(self, link_channel):
-        try:
+        status_error = False
 
-            name_chat = link_channel.replace('https://t.me/', '')
+        for _try in range(2):
+            try:
 
-        except Exception as es:
-            print(f'Не могу получить вырезать имя чата "{link_channel}" "{es}"')
+                name_chat = link_channel.replace('https://t.me/', '')
 
-            return False
+            except Exception as es:
+                logger_msg(f'Не могу получить вырезать имя чата "{link_channel}" "{es}"')
 
-        try:
+                return False
 
-            res_chat = await self.telegram_core.app.get_chat(name_chat)
+            try:
+                res_chat = await self.telegram_core.app.get_chat(name_chat)
 
-        except Exception as es:
-            print(f'Исключения при получение ID чат {es}')
-            return False
+                id_chat = res_chat.id
 
-        id_chat = res_chat.id
+                self.BotDB.add_id_channel(link_channel, id_chat)
 
-        self.BotDB.add_id_channel(link_channel, id_chat)
+                return id_chat
 
-        return id_chat
+            except Exception as es:
+
+                status_error = str(es)
+
+                # print(f'Ошибка при работе с модулем TgGetMessage ошибка "{es}"')
+
+                res_add = await JoinChat(self.telegram_core.app).join_to_chat(link_channel)
+
+                print(f'Результат присоединения к чату: {res_add}')
+
+                await asyncio.sleep(30)
+
+        logger_msg(f'Ошибка при работе с модулем TgGetMessage ошибка "{status_error}"')
+
+        return False

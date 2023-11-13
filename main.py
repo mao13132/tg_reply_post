@@ -8,6 +8,9 @@
 # ---------------------------------------------
 import asyncio
 import os
+
+from settings import REFRESH_TIME
+from src.logic._logger import logger_msg
 from src.telegram.tg_auth_module import TgAuthModule
 
 import logging
@@ -22,7 +25,7 @@ logging.basicConfig(handlers=[logging.FileHandler(filename="./src/logs.txt",
                                                   encoding='utf-8', mode='a+')],
                     format=u'%(filename)s:%(lineno)d #%(levelname)-8s [%(asctime)s] - %(name)s - %(message)s',
                     datefmt="%F %A %T",
-                    level=logging.DEBUG)
+                    level=logging.WARNING)
 
 
 async def main():
@@ -37,9 +40,12 @@ async def main():
     if not telegram_core:
         return False
 
-    scrap_result = await ScrapModule(path_dir_project, BotDB, telegram_core).start_scrap()
+    while True:
+        await ScrapModule(path_dir_project, BotDB, telegram_core).start_scrap()
 
-    print()
+        print(f'Засыпаю на {REFRESH_TIME}')
+
+        await asyncio.sleep(REFRESH_TIME)
 
 
 if __name__ == '__main__':

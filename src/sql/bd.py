@@ -2,6 +2,8 @@ import datetime
 import sqlite3
 from datetime import datetime
 
+from src.logic._logger import logger_msg
+
 
 class BotDB:
     __instance = None
@@ -34,23 +36,11 @@ class BotDB:
 
         try:
             self.cursor.execute(f"CREATE TABLE IF NOT EXISTS "
-                                f"posts (id_pk INTEGER PRIMARY KEY AUTOINCREMENT, "
-                                f"id_chat TEXT, date DATETIME, message_id TEXT, text TEXT, "
-                                f"source TEXT, title TEXT, admin TEXT, target_channels TEXT, "
-                                f"active BOOLEAN DEFAULT 1, "
-                                f"publish BOOLEAN DEFAULT 0, other TEXT)")
+                                f"monitoring (id_pk INTEGER PRIMARY KEY AUTOINCREMENT, "
+                                f"id_chat TEXT, id_msg TEXT, date DATETIME, other TEXT)")
 
         except Exception as es:
-            print(f'SQL исключение check_table posts {es}')
-
-        try:
-            self.cursor.execute(f"CREATE TABLE IF NOT EXISTS "
-                                f"media (id_pk INTEGER PRIMARY KEY AUTOINCREMENT, "
-                                f"message_id TEXT, path TEXT, source TEXT, admin TEXT, target_channels TEXT, "
-                                f"other TEXT)")
-
-        except Exception as es:
-            print(f'SQL исключение check_table media {es}')
+            print(f'SQL исключение check_table monitoring {es}')
 
     def get_id_channel(self, link_channel):
 
@@ -74,15 +64,14 @@ class BotDB:
 
         return self.cursor.lastrowid
 
-    def exist_post(self, id_chat, title, date_post):
+    def exist_message(self, id_chat, id_msg):
         try:
-            result = self.cursor.execute(f"SELECT * FROM posts WHERE id_chat='{id_chat}' AND date='{date_post}' "
-                                         f"AND title='{title}'")
+            result = self.cursor.execute(f"SELECT * FROM monitoring WHERE id_chat='{id_chat}' AND id_msg='{id_msg}'")
 
             response = result.fetchall()
 
         except Exception as es:
-            print(f'Ошибка при проверки существования записи из TG канала "{es}"')
+            logger_msg(f'Ошибка при проверки существования записи из TG канала "{es}"')
             return False
 
         if response == []:
@@ -90,42 +79,38 @@ class BotDB:
 
         return True
 
-    def add_message(self, id_chat, message_id, title, text, source, date_post, admin_channel, target_channels):
+    def add_message(self, id_chat, id_msg):
 
-        result = self.cursor.execute(f"SELECT * FROM posts WHERE admin='{admin_channel}' AND id_chat='{id_chat}' "
-                                     f"AND title='{title}' AND source='{source}' AND "
-                                     f"target_channels='{target_channels}'")
+        result = self.cursor.execute(f"SELECT * FROM monitoring WHERE id_chat='{id_chat}' AND id_msg='{id_msg}'")
 
         response = result.fetchall()
 
         if response == []:
-            self.cursor.execute("INSERT OR IGNORE INTO posts ('id_chat', 'message_id', 'title', 'text', 'source', "
-                                "'date', 'admin', 'target_channels') VALUES (?,?,?,?,?,?,?,?)",
-                                (id_chat, message_id, title, text, source,
-                                 date_post, admin_channel, target_channels))
+            now_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+            self.cursor.execute("INSERT OR IGNORE INTO monitoring ('id_chat',"
+                                "'id_msg', "
+                                "'date') VALUES (?,?,?)",
+                                (id_chat, id_msg,
+                                 now_date,))
 
             self.conn.commit()
             return True
 
         return False
 
-    def save_media(self, message_id, path, source, admin_channel, target_channels):
+    def count_from_channel(self, id_chat):
 
-        result = self.cursor.execute(f"SELECT * FROM media WHERE path='{path}' AND admin='{admin_channel}' AND "
-                                     f"target_channels='{target_channels}'")
+        result = self.cursor.execute(f"SELECT count(*) FROM monitoring WHERE id_chat='{id_chat}'")
 
         response = result.fetchall()
 
-        if response == []:
-            self.cursor.execute(
-                "INSERT OR IGNORE INTO media ('message_id', 'path', 'source', 'admin', 'target_channels') "
-                "VALUES (?,?,?,?,?)",
-                (message_id, path, source, admin_channel, target_channels))
+        try:
+            response = response[0][0]
+        except:
+            return ''
 
-            self.conn.commit()
-            return True
-
-        return False
+        return response
 
     def close(self):
         # Закрытие соединения

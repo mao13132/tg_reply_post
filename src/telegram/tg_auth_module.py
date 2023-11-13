@@ -15,6 +15,8 @@ from settings import *
 
 from datetime import datetime
 
+from src.logic._logger import logger_msg
+
 
 class TgAuthModule:
     def __init__(self, sessions_patch):
@@ -33,7 +35,7 @@ class TgAuthModule:
             await self.app.start()
 
         except Exception as es:
-            print(f'{datetime.now().strftime("%H:%M:%S")} Ошибка при авторизации ({API_ID}) "{es}"')
+            logger_msg(f'{datetime.now().strftime("%H:%M:%S")} Ошибка при авторизации ({API_ID}) "{es}"')
 
             return False
 
