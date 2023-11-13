@@ -5,3 +5,4 @@ _logger.py:15 #WARNING  [2023-11-13 Monday 18:51:26] - root - Logger: Перес
 _logger.py:15 #WARNING  [2023-11-13 Monday 18:51:26] - root - Logger: Переслал сообщение из чата https://t.me/chahhanelsB
 _logger.py:15 #WARNING  [2023-11-13 Monday 18:54:27] - root - Logger: Переслал сообщение из чата https://t.me/chahhanelsB
 _logger.py:15 #WARNING  [2023-11-13 Monday 19:10:57] - root - Logger: Переслал #11 сообщение из чата https://t.me/chahhanelsB в -1001769946855
+_logger.py:15 #WARNING  [2023-11-13 Monday 19:15:28] - root - Logger: Переслал #15 сообщение из чата https://t.me/CahanellslsA в -1001769946855
