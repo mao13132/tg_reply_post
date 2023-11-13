@@ -14,7 +14,7 @@ API_HASH = os.getenv('API_HASH')
 
 START_MESSAGE = 'Стартовое сообщение'
 
-CHANNELS_DONOR = ['-1002017070550', '-1002017070550']
+CHANNELS_DONOR = ['-1002017070550', 'https://t.me/chahhanelsB']
 
 ADMIN_CHANEL = '-1001769946855'
 

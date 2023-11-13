@@ -7,11 +7,14 @@
 #
 # ---------------------------------------------
 import asyncio
-import logging
 import os
 from src.telegram.tg_auth_module import TgAuthModule
 
 import logging
+
+from src.sql.bot_connector import BotDB
+
+from src.telegram.tg_scrap_module import ScrapModule
 
 logger_core = logging.getLogger()
 
@@ -33,6 +36,10 @@ async def main():
 
     if not telegram_core:
         return False
+
+    scrap_result = await ScrapModule(path_dir_project, BotDB, telegram_core).start_scrap()
+
+    print()
 
 
 if __name__ == '__main__':
