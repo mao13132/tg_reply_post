@@ -13,3 +13,5 @@ def logger_msg(message):
     _msg = f'Logger: {message}'
 
     logging.warning(_msg)
+
+    print(_msg)

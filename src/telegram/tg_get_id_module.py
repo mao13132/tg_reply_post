@@ -22,8 +22,10 @@ class TgGetIdModule:
 
         for _try in range(2):
             try:
-
-                name_chat = link_channel.replace('https://t.me/', '')
+                if '+' not in link_channel:
+                    name_chat = link_channel.replace('https://t.me/', '')
+                else:
+                    name_chat = link_channel
 
             except Exception as es:
                 logger_msg(f'Не могу получить вырезать имя чата "{link_channel}" "{es}"')

@@ -42,6 +42,9 @@ class TgGetMessage:
             except Exception as es:
                 status_error = str(es)
 
+                if 'MESSAGE_ID_INVALID' in status_error:
+                    return False
+
                 logger_msg(f'Ошибка при пересылке необходимого сообщения в целевой чат "{es}"')
 
                 res_add = await JoinChat(self.telegram_core.app).join_to_chat(target_id_chat)
@@ -70,6 +73,8 @@ class TgGetMessage:
 
         count_msg_from_channel = self.BotDB.count_from_channel(id_channel)
 
+        good_message = 0
+
         if not count_msg_from_channel:
             new_channel = True
         else:
@@ -78,6 +83,14 @@ class TgGetMessage:
         async for message in self.telegram_core.app.get_chat_history(int(id_channel)):
 
             id_message = message.id
+
+            try:
+                format_msg = message.media.value
+            except:
+                format_msg = 'text'
+
+            if format_msg != 'photo':
+                continue
 
             if new_channel:
                 res_add = self.BotDB.add_message(id_channel, id_message)
@@ -91,6 +104,9 @@ class TgGetMessage:
 
             if exist_post:
 
+                if good_message == 0:
+                    print(f'В канале не публиковалось новых сообщений')
+
                 return True
 
             res_forward = await self.forward_to_target_channel(message, target_id_chat)
@@ -103,6 +119,8 @@ class TgGetMessage:
             res_add = self.BotDB.add_message(id_channel, id_message)
 
             if res_add:
+                good_message += 1
+
                 res = await self.delete_forward_message(message, id_channel)
 
-            return res_forward
+            print(f'Переслал сообщений: {good_message}')

@@ -6,3 +6,492 @@ _logger.py:15 #WARNING  [2023-11-13 Monday 18:51:26] - root - Logger: Перес
 _logger.py:15 #WARNING  [2023-11-13 Monday 18:54:27] - root - Logger: Переслал сообщение из чата https://t.me/chahhanelsB
 _logger.py:15 #WARNING  [2023-11-13 Monday 19:10:57] - root - Logger: Переслал #11 сообщение из чата https://t.me/chahhanelsB в -1001769946855
 _logger.py:15 #WARNING  [2023-11-13 Monday 19:15:28] - root - Logger: Переслал #15 сообщение из чата https://t.me/CahanellslsA в -1001769946855
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:25:20] - root - Logger: Ошибка при работе с модулем TgGetMessage ошибка link_channel "https://t.me/+QidF0v6evBE4MjYy" id_channel "id_channel" "Не подписан на канал"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:28:26] - root - Logger: 2023-11-14 10:28:23 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:38:01] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:39:18] - root - Logger: Переслал #18183 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:42:24] - root - Logger: Переслал #18186 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:43:20] - root - Logger: Переслал #18185 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:44:03] - root - Logger: Переслал #18184 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:44:10] - root - Logger: Переслал #18182 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:44:11] - root - Logger: Переслал #18181 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:44:11] - root - Logger: Переслал #18180 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:44:11] - root - Logger: Переслал #18179 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:44:11] - root - Logger: Ошибка при пересылке необходимого сообщения в целевой чат "Telegram says: [400 MESSAGE_ID_INVALID] - The message id is invalid (caused by "messages.ForwardMessages")"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:47:53] - root - Logger: Переслал #18191 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:49:56] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:54:50] - root - Logger: 2023-11-14 10:54:50 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:57:38] - root - Logger: 2023-11-14 10:57:38 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:58:19] - root - Logger: 2023-11-14 10:58:19 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:58:57] - root - Logger: 2023-11-14 10:58:57 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:59:09] - root - Logger: 2023-11-14 10:59:09 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:59:19] - root - Logger: 2023-11-14 10:59:19 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:59:23] - root - Logger: 2023-11-14 10:59:23 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:59:26] - root - Logger: 2023-11-14 10:59:26 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 10:59:39] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:00:32] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:00:50] - root - Logger: 2023-11-14 11:00:50 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:01:53] - root - Logger: 2023-11-14 11:01:53 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:01:53] - root - Logger: 2023-11-14 11:01:53 Добавил последние сообщение из нового чата: "True"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:03:36] - root - Logger: Переслал #7245 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:03:40] - root - Logger: Переслал #7244 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:03:42] - root - Logger: Переслал #7243 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:03:47] - root - Logger: Переслал #7242 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:04:15] - root - Logger: Переслал #7249 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:04:15] - root - Logger: Переслал #7248 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:04:16] - root - Logger: Переслал #7247 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:04:16] - root - Logger: Переслал #7246 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:04:36] - root - Logger: Переслал #7253 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:04:50] - root - Logger: Переслал #7252 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:06:21] - root - Logger: Переслал #18194 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:06:26] - root - Logger: Переслал #18193 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:06:26] - root - Logger: Переслал #18192 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:06:26] - root - Logger: Переслал #18190 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:06:26] - root - Logger: Переслал #18189 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:06:27] - root - Logger: Переслал #18188 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:06:27] - root - Logger: Переслал #18187 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:06:27] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:08:40] - root - Logger: Переслал #18199 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:09:43] - root - Logger: Переслал #18200 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:10:45] - root - Logger: Переслал #18205 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:10:45] - root - Logger: Переслал #18204 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:10:46] - root - Logger: Переслал #18203 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:10:46] - root - Logger: Переслал #18202 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:10:46] - root - Logger: Переслал #18201 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:12:49] - root - Logger: Переслал #18207 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:12:50] - root - Logger: Переслал #18206 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:13:51] - root - Logger: Переслал #18211 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:13:52] - root - Logger: Переслал #18210 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:13:52] - root - Logger: Переслал #18209 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:13:52] - root - Logger: Переслал #18208 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:21:18] - root - Logger: Переслал #18219 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:21:18] - root - Logger: Ошибка при работе с модулем TgGetMessage ошибка link_channel "https://t.me/+QidF0v6evBE4MjYy" id_channel "id_channel" "'NoneType' object has no attribute 'value'"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:22:03] - root - Logger: Ошибка при работе с модулем TgGetMessage ошибка link_channel "https://t.me/+QidF0v6evBE4MjYy" id_channel "id_channel" "'NoneType' object has no attribute 'value'"
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:04] - root - Logger: Переслал #18216 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:11] - root - Logger: Переслал #18215 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:11] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:11] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:12] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:12] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:12] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:12] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:13] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:13] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:13] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:13] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:14] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:24:14] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:14] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:15] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:15] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:15] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:15] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:16] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:16] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:16] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:16] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:17] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:17] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:25:17] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:18] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:18] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:18] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:18] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:18] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:18] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:19] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:19] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:19] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:19] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:19] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:26:20] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:20] - root - Logger: Переслал #18223 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:21] - root - Logger: Переслал #18222 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:21] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:21] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:21] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:22] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:22] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:23] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:23] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:23] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:23] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:23] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:24] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:27:24] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:24] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:24] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:24] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:25] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:25] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:25] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:25] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:25] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:26] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:26] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:26] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:28:26] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:27] - root - Logger: Переслал #18226 сообщение из чата https://t.me/+QidF0v6evBE4MjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:27] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:27] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:27] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:27] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:28] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:28] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:28] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:28] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:28] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:28] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:29] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:29:29] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:29] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:29] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:29] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:29] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:30] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:30] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:30] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:30] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:30] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:31] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:31] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:30:31] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:31] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:31] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:32] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:32] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:32] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:32] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:33] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:33] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:33] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:34] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:34] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:31:34] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:34] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:34] - root - Logger: Переслал #18551 сообщение из чата https://t.me/+syj8zVecWCtlZTRi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:35] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:35] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:35] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:35] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:35] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:36] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:36] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:36] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:36] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:36] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:32:36] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:37] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:37] - root - Logger: Переслал #18553 сообщение из чата https://t.me/+syj8zVecWCtlZTRi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:37] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:37] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:38] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:38] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:38] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:38] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:38] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:39] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:39] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:39] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:33:39] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:39] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:40] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:40] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:40] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:41] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:41] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:41] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:41] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:41] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:42] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:42] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:34:42] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:42] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:43] - root - Logger: Переслал #18556 сообщение из чата https://t.me/+syj8zVecWCtlZTRi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:43] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:43] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:44] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:44] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:44] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:44] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:44] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:45] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:45] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:45] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:35:45] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:45] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:45] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:46] - root - Logger: Переслал #10290 сообщение из чата https://t.me/+6vE4vMJ4lb8xOWVi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:46] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:46] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:46] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:47] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:47] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:47] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:47] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:47] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:48] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:36:48] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:48] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:48] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:48] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:49] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:49] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:49] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:49] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:49] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:49] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:50] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:50] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:37:50] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:50] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:50] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:51] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:51] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:51] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:51] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:51] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:51] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:52] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:52] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:52] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:38:52] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:52] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:53] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:53] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:53] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:53] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:53] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:53] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:54] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:54] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:54] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:54] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:39:54] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:55] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:55] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:55] - root - Logger: Переслал #10294 сообщение из чата https://t.me/+6vE4vMJ4lb8xOWVi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:55] - root - Logger: Переслал #10293 сообщение из чата https://t.me/+6vE4vMJ4lb8xOWVi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:55] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:56] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:56] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:56] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:56] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:56] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:56] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:57] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:57] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:40:57] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:57] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:57] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:58] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:58] - root - Logger: Переслал #48 сообщение из чата https://t.me/+zvA5AOweoepmMjky в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:58] - root - Logger: Переслал #47 сообщение из чата https://t.me/+zvA5AOweoepmMjky в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:58] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:59] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:59] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:59] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:59] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:59] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:41:59] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:42:00] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:42:00] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:00] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:00] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:00] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:01] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:01] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:01] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:01] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:01] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:01] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:02] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:02] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:43:02] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:02] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:02] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:03] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:03] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:03] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:03] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:03] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:04] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:04] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:04] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:04] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:44:05] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:05] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:05] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:05] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:05] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:06] - root - Logger: Переслал #386 сообщение из чата https://t.me/+OmtYNpv7JtgzYjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:06] - root - Logger: Переслал #385 сообщение из чата https://t.me/+OmtYNpv7JtgzYjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:06] - root - Logger: Переслал #384 сообщение из чата https://t.me/+OmtYNpv7JtgzYjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:06] - root - Logger: Переслал #383 сообщение из чата https://t.me/+OmtYNpv7JtgzYjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:07] - root - Logger: Переслал #382 сообщение из чата https://t.me/+OmtYNpv7JtgzYjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:07] - root - Logger: Переслал #379 сообщение из чата https://t.me/+OmtYNpv7JtgzYjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:07] - root - Logger: Переслал #378 сообщение из чата https://t.me/+OmtYNpv7JtgzYjYy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:07] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:08] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:08] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:08] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:08] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:08] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:09] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:45:09] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:09] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:09] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:10] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:10] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:10] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:10] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:10] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:10] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:11] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:11] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:11] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:46:11] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:11] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:12] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:12] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:12] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:12] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:13] - root - Logger: Переслал #4848 сообщение из чата https://t.me/+Z3Cf7YaFvB5hNGQx в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:13] - root - Logger: Переслал #4847 сообщение из чата https://t.me/+Z3Cf7YaFvB5hNGQx в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:13] - root - Logger: Переслал #4846 сообщение из чата https://t.me/+Z3Cf7YaFvB5hNGQx в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:14] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:14] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:14] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:14] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:14] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:15] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:47:15] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:15] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:15] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:16] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:16] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:16] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:16] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:17] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:17] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:17] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:17] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:18] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:48:18] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:18] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:18] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:19] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:19] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:19] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:20] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:20] - root - Logger: Переслал #5803 сообщение из чата https://t.me/+DBivdVcjRpZmNGYx в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:21] - root - Logger: Переслал #5802 сообщение из чата https://t.me/+DBivdVcjRpZmNGYx в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:21] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:21] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:22] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:22] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:22] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:49:22] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:22] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:22] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:23] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:23] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:23] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:23] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:24] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:24] - root - Logger: Переслал #5929 сообщение из чата https://t.me/+7QA5pwsrLrpiNmU6 в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:24] - root - Logger: Переслал #5928 сообщение из чата https://t.me/+7QA5pwsrLrpiNmU6 в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:24] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:24] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:25] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:25] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:50:25] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:25] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:26] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:26] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:26] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:26] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:26] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:27] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:27] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:27] - root - Logger: Переслал #2834 сообщение из чата https://t.me/+G3k-d_lRLR81YWQy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:28] - root - Logger: Переслал #2833 сообщение из чата https://t.me/+G3k-d_lRLR81YWQy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:28] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:28] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:29] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:51:29] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:29] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:29] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:30] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:30] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:30] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:30] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:30] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:31] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:31] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:31] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:31] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:52:31] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:32] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:32] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:32] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:32] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:32] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:33] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:33] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:33] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:33] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:33] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:34] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:53:34] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:34] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:34] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:34] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:35] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:35] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:35] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:35] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:36] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:36] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:36] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:36] - root - Logger: Переслал #7259 сообщение из чата https://t.me/+ASMTgmSIInM4Yjdi в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:36] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:54:37] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:37] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:37] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:37] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:38] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:38] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:38] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:38] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:39] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:39] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:39] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:39] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:55:39] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:40] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:40] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:40] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:40] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:41] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:41] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:41] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:42] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:42] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:42] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:43] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:56:43] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:43] - root - Logger: https://t.me/+QidF0v6evBE4MjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:43] - root - Logger: https://t.me/+syj8zVecWCtlZTRi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:44] - root - Logger: https://t.me/+6vE4vMJ4lb8xOWVi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:44] - root - Logger: https://t.me/+zvA5AOweoepmMjky в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:44] - root - Logger: https://t.me/+OmtYNpv7JtgzYjYy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:44] - root - Logger: https://t.me/+Z3Cf7YaFvB5hNGQx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:44] - root - Logger: https://t.me/+DBivdVcjRpZmNGYx в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:44] - root - Logger: https://t.me/+7QA5pwsrLrpiNmU6 в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:45] - root - Logger: https://t.me/+G3k-d_lRLR81YWQy в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:45] - root - Logger: https://t.me/+KMQmRFPSP4E3NjJi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:45] - root - Logger: https://t.me/+ASMTgmSIInM4Yjdi в канале нет сообщений
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:45] - root - Logger: Переслал #8414 сообщение из чата https://t.me/+yFssC13043xhODgy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:46] - root - Logger: Переслал #8413 сообщение из чата https://t.me/+yFssC13043xhODgy в -1002140591441
+_logger.py:15 #WARNING  [2023-11-14 Tuesday 11:57:46] - root - Logger: https://t.me/+yFssC13043xhODgy в канале нет сообщений

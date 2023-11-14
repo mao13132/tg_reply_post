@@ -46,6 +46,9 @@ class ScrapModule:
                     self.path_dir_project, self.BotDB, self.telegram_core).start_one_channel(
                     id_channel, link_channel, target_id_chat)
 
+                if res_get_message is None:
+                    print(f'{link_channel} в канале нет сообщений')
+
                 return res_get_message
 
             except Exception as es:
@@ -80,8 +83,8 @@ class ScrapModule:
         for count, link_channel in enumerate(CHANNELS_DONOR):
             print(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")} Начинаю обработку {link_channel}')
 
-            if count > 0:
-                time.sleep(60)
+            # if count > 0:
+            #     time.sleep(60)
 
             id_channel = await self.get_id_channel(link_channel)
 
